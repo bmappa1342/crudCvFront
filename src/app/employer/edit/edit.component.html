@@ -1,0 +1,20 @@
+<div class="w3-col s4 deplacementdroit">
+    <h4>CURICCULUM VITAE</h4>
+        <form action="" target="_blank">
+          <p><input [(ngModel)]="employeur.nom" class="w3-input w3-border bordureinput"  type="text" placeholder="nom" name="nom" required></p>
+          <p><input [(ngModel)]="employeur.prenom" class="w3-input w3-border bordureinput" type="text" placeholder="prenom" name="prenom" required></p>
+          <p><input [(ngModel)]="employeur.telephone" class="w3-input w3-border bordureinput" type="text" placeholder="telephone" name="telephone" required></p>
+          <p><input [(ngModel)]="employeur.adresse" class="w3-input w3-border bordureinput" type="text" placeholder="adresse" name="adresse" required></p>
+          <p><input [(ngModel)]="employeur.exppro" class="w3-input w3-border bordureinput" type="text" placeholder="experience professionnelle" name="exppro" required></p>
+          <p><input [(ngModel)]="employeur.specialite" class="w3-input w3-border bordureinput" type="text" placeholder="specialite" name="specialite" required></p>
+          <p><input [(ngModel)]="employeur.niveauEetude" class="w3-input w3-border bordureinput" type="text" placeholder="niveau d'etude" name="niveauEetude" required></p>
+          <p><input [(ngModel)]="employeur.age" class="w3-input w3-border bordureinput" type="number" placeholder="age" name="age" required></p>
+          <p><input [(ngModel)]="employeur.email" class="w3-input w3-border bordureinput" type="email" placeholder="email" name="email" required></p>
+          <p><input [(ngModel)]="employeur.password" class="w3-input w3-border bordureinput" type="password" placeholder="password" name="password" required></p>
+         
+          <p><input [(ngModel)]="employeur.id" class="w3-input w3-border bordureinput" type="number" placeholder="id" name="id" required></p>
+          <button type="submit"  (click)="ModifierEmployer()" class="w3-button w3-block bordurebutton w3-black"><strong>Sauvegarder</strong></button>
+        </form>
+      </div>
+
+     

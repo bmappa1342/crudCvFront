@@ -1,0 +1,46 @@
+{
+    "offres": [
+      {
+        "id": "1",
+        "libelle": "Besoin de dev Front-end",
+        "Categorie": "Dev web"
+      },
+      {
+        "id": "2",
+        "libelle": "Developpement Back-end a sally",
+        "Categorie": "Back-end dev"
+      },
+      {
+        "id": "3",
+        "libelle": "Programmation modulaire",
+        "Categorie": "Full-stack dev"
+      }
+      ,
+      {
+        "id": "4",
+        "libelle": "Test d'application ",
+        "Categorie": "Tech Lead"
+      },
+      {
+        "id": "5",
+        "libelle": "Besoin de dev Front-end",
+        "Categorie": "Dev web"
+      },
+      {
+        "id": "6",
+        "libelle": "Developpement Back-end a sally",
+        "Categorie": "Back-end dev"
+      },
+      {
+        "id": "7",
+        "libelle": "Programmation modulaire",
+        "Categorie": "Full-stack dev"
+      }
+      ,
+      {
+        "id": "8",
+        "libelle": "Test d'application ",
+        "Categorie": "Tech Lead"
+      }
+    ]
+  }
